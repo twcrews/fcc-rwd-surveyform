@@ -1,4 +1,52 @@
 <div>
-  <h1>Hello, world!</h1>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">This is an example survey form.</p>
+
+	<form id="survey-form">
+		<div>
+			<label id="name-label" for="name">Name</label>
+			<input id="name" type="text" name="name" placeholder="Name" required />
+		</div>
+
+		<div>
+			<label id="email-label" for="email">Email</label>
+			<input
+				id="email"
+				type="email"
+				name="email"
+				placeholder="Email"
+				required
+			/>
+		</div>
+
+		<div>
+			<label id="number-label" for="number">Age</label>
+			<input
+				id="number"
+				type="number"
+				name="age"
+				placeholder="Age"
+				min="18"
+				max="120"
+				required
+			/>
+		</div>
+
+		<div>
+			<label id="dropdown-label" for="dropdown">Favorite color</label>
+			<select id="dropdown" name="dropdown">
+				<option value="">Select an option</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+			</select>
+		</div>
+	</form>
 </div>
-<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="index.css" />
+<script type="text/javascript" src="index.js"></script>
+<script
+	type="text/javascript"
+	src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+></script>
