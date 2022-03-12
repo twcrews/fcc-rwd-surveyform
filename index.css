@@ -8,3 +8,14 @@ body {
 #description {
 	text-align: center;
 }
+
+hr {
+	border-color: rgb(80, 80, 80);
+}
+
+input,
+select,
+textarea {
+	background-color: rgb(80, 80, 80);
+	color: white;
+}
